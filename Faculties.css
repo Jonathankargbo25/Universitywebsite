@@ -1,0 +1,64 @@
+/* Styling for the Faculties page */
+.faculties {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .faculties h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Styling for the faculty dropdown */
+  .faculty-dropdown {
+    margin-bottom: 20px;
+  }
+  
+  .faculty-dropdown label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .faculty-dropdown select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Styling for the selected department list */
+  .department-list {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .department-list h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #007BFF;
+  }
+  
+  .department-list ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .department-list li {
+    font-size: 1rem;
+    color: #555;
+  }
+  

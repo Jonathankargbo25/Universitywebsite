@@ -1,0 +1,91 @@
+/* Styling for the Contact Us section */
+.contact-us {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-us h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+    width: 100%;
+  }
+  
+  /* Styling for the contact form */
+  .contact-form {
+    flex: 1;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .contact-form .form-group {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+  }
+  
+  .contact-form button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  /* Styling for the Google Map */
+  .google-map {
+    flex: 1;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  
+  .google-map h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .map-container {
+    height: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  

@@ -1,0 +1,46 @@
+/* Footer container */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  /* Page Links */
+  .page-links {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  
+  .page-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+  }
+  
+  /* Copyright Information */
+  .copyright {
+    flex: 1;
+    text-align: center;
+  }
+  
+  /* Social Media Links */
+  .social-links .social-link {
+    font-size: 20px;
+    color: #fff;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
+  .social-links .social-link:last-child {
+    margin-right: 0;
+  }
+  
